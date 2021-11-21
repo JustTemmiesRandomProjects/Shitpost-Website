@@ -4,11 +4,12 @@
 
 .grid {
     margin-left: 700px;
+    margin-top: -200px;
     width: 320px;
     height: 640px;
     display: flex;
     flex-wrap: wrap;
-    background-color: yellow;
+    background-color: #000000;
 }
 
 .grid div {
@@ -23,11 +24,12 @@
 
 .mini-grid {
     margin-left: 50px;
+    margin-top: -125px;
     width: 100px;
     height: 100px;
     display: flex;
     flex-wrap: wrap;
-    background-color: yellow;
+    background-color: #000000;
 }
 
 .mini-grid div {
