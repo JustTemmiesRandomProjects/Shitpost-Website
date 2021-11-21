@@ -1,13 +1,16 @@
 .grid {
-    width: 200px;
-    height: 400px;
+    width: 320px;
+    height: 640;
     display: flex;
     flex-wrap: wrap;
     background-color: yellow;
 }
 
 .grid div {
-    height: 20px;
-    width: 20px;
-    background-color: red;
+    height: 32px;
+    width: 32px;
+}
+
+.tetromino {
+    background-color: purple;
 }
