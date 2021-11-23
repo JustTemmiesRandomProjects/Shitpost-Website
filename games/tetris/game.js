@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let nextRandom = 0
     let timerID
     let score = 0
+    var timer
     const colors = [
         '#0101ef',
         '#01f202',
@@ -88,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 timerID = null
             } else {
                 draw()
-                timerID = setInterval(moveDown, 1000)
+                timerID = setInterval(moveDown, timer)
                 nextRandom = Math.floor(Math.random()*theTetrominoes.length)
                 displayShape()
             }
@@ -232,7 +233,8 @@ document.addEventListener('DOMContentLoaded', () => {
         timerID = null
       } else {
         draw()
-        timerID = setInterval(moveDown, 1000)
+        timer = document.getElementById("timer_field"); 
+        timerID = setInterval(moveDown, timer)
         nextRandom = Math.floor(Math.random()*theTetrominoes.length)
         displayShape()
       }
