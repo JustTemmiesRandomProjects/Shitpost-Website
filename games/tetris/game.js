@@ -89,6 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 timerID = null
             } else {
                 draw()
+                timer = 1000
                 timerID = setInterval(moveDown, timer)
                 nextRandom = Math.floor(Math.random()*theTetrominoes.length)
                 displayShape()
@@ -233,7 +234,7 @@ document.addEventListener('DOMContentLoaded', () => {
         timerID = null
       } else {
         draw()
-        timer = document.getElementById("timer_field").value; 
+        timer = 1000 //document.getElementById("timer_field").value; 
         timerID = setInterval(moveDown, timer)
         nextRandom = Math.floor(Math.random()*theTetrominoes.length)
         displayShape()
