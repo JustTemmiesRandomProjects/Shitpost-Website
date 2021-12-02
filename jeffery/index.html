@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tax Jeff Bezos</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="mode-button">
+      <button type="button" id="mode" class="btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="icon"
+        >
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </div>
+    <header class="page-heading">
+      <div class="container">
+        <h1 class="page-heading__heading">
+          Jeff Bezos has made this much money since you opened this website
+        </h1>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="money-counter">
+          <span class="money-counter__sign">$</span
+          ><span id="money-counter-text" class="money-counter__text">0</span>
+        </section>
+      </div>
+    </main>
+    <section class="info">
+      <div class="container">
+        <h2 class="info__heading">More information</h2>
+        <p class="info__text">
+          While Jeff Bezos makes approximately
+          <strong>$2,537 per second</strong><sup><a href="#1">1</a></sup
+          >, he pays
+          <strong>$0 in taxes.</strong>
+        </p>
+        <div class="cta">
+          <a href="#donate" class="btn btn-primary btn-text">Get Involved</a>
+          <a
+            href="mailto:support@taxjeffbezos.org"
+            class="btn btn-secondary btn-text"
+            >Email Us</a
+          >
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <ol class="footer__sources">
+          <li id="1">
+            Business Insider -
+            <a
+              href="https://www.businessinsider.com/how-rich-is-jeff-bezos-mind-blowing-facts-net-worth-2019-4?r=US&IR=T"
+              >How Rich is Jeff Bezos?</a
+            >
+          </li>
+        </ol>
+      </div>
+    </footer>
+  </body>
+</html>
