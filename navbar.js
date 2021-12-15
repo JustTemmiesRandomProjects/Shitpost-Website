@@ -3,7 +3,7 @@ document.write('\
     <nav class="navbar">\
     <ul class="navbar-nav">\
     <li class="logo">\
-        <a href="#" class="nav-link">\
+        <a href="https://temmietem.site" class="nav-link">\
         <span class="link-text logo-text">TemTem</span>\
         <svg\
             aria-hidden="true"\
