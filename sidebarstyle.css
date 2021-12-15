@@ -3,8 +3,8 @@
     font-family: 'Open Sans';
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
-    --bg-primary: #23232e;
-    --bg-secondary: #141418;
+    --bg-primary: #584e58;
+    --bg-secondary: #363136;
     --transition-speed: 700ms;
   }
   
@@ -13,7 +13,6 @@
     background-color: white;
     margin: 0;
     padding: 0;
-    padding-left: 5rem;
     scrollbar-width: none;
   }
 
@@ -148,6 +147,10 @@
   
   /* Large screens */
   @media only screen and (min-width: 600px) {
+    body {
+      padding-left: 5rem;
+    }
+
     .navbar {
       top: 0;
       width: 5rem;
