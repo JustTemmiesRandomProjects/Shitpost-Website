@@ -38,14 +38,6 @@ document.write('\
   }\
   \
   /* Create two unequal columns that sits next to each other */\
-  \
-  /* left padding */\
-  .sidepadding {\
-    flex:8%;\
-    background-color: white;\
-    padding: 20px;\
-  }\
-  \
   /* Sidebar/left column */\
   .side {\
     flex: 30%;\
@@ -55,7 +47,7 @@ document.write('\
   \
   /* Main column */\
   .main {\
-    flex: 62%;\
+    flex: 70%;\
     background-color: white;\
     padding: 20px;\
   }\

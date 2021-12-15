@@ -13,13 +13,14 @@
     background-color: white;
     margin: 0;
     padding: 0;
+    padding-left: 5rem;
     scrollbar-width: none;
   }
-  
-  ::-webkit-scrollbar {
-      display: none;
-    }
-  
+
+  nav { 
+    left: 0
+  }
+    
   main {
     margin-left: 5rem;
     padding: 1rem;
