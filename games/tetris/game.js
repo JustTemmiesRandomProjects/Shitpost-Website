@@ -1,3 +1,6 @@
+
+// FYI, this is just a sligthy modified version of this tutorial https://www.youtube.com/watch?v=rAUn1Lom6dw
+
 document.addEventListener('DOMContentLoaded', () => {
     const grid = document.querySelector('.grid')
     let squares = Array.from(document.querySelectorAll('.grid div'))
