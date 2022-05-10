@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-    <script defer src="https://pyscript.net/alpha/pyscript.js"></script> 
-
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/American_Beaver.jpg/300px-American_Beaver.jpg">
-    <link rel="stylesheet" href="sidebarstyle.css" />
+    <link rel="stylesheet" href="../sidebarstyle.css" />
     <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
     rel="stylesheet"
@@ -14,18 +11,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script src="siteStyle.js"></script>
+    <script src="../siteStyle.js"></script>
+
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script> 
 
 </head>
-
-
 <body>
 
-<script src="navbar.js"></script>
-
-<div class="footer">
-  <h2>Footer</h2>
+<div class="header">
+  <h1>Python</h1>
+  <p>in html - lmao</p>
 </div>
 
-</body>
+<script src="../navbar.js"></script>
+<!--<script src="please_zoom_out_lmao.js"></script>!-->
+
+
+    <py-script>
+print("Hello, world!")
+for i in range(10):
+    print(i)
+    </py-script>
+    <b><p>The time is <u><label id="time"></label></u></p></b>
+    <py-script>
+import datetime
+pyscript.write('time', datetime.datetime.now().strftime("%H:%M:%S"))
+    </py-script>
+
+    <p><a href="https://temmietem.site/test/mario/play_mario.html"><b>mario in python</b></a></p>
+
+    </body>
 </html>

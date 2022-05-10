@@ -1,0 +1,61 @@
+
+
+
+
+<!-- code from https://github.com/pyscript/pyscript-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>Svelte app</title>
+
+    <link rel="icon" type="image/png" href="../favicon.png" />
+    <link rel="stylesheet" href="../../build/pyscript.css" />
+
+    <script defer src="../../build/pyscript.js"></script>
+  </head>
+
+  <body>
+    <script type="text/javascript" src="js/util.js"></script>
+    <script type="text/javascript" src="js/input.js"></script>
+    <script type="text/javascript" src="js/resources.js"></script>
+    <script type="text/javascript" src="js/sprite.js"></script>
+    <script type="text/javascript" src="js/entity.js"></script>
+    <script type="text/javascript" src="js/pipe.js"></script>
+    <script type="text/javascript" src="js/mushroom.js"></script>
+    <script type="text/javascript" src="js/fireflower.js"></script>
+    <script type="text/javascript" src="js/star.js"></script>
+    <script type="text/javascript" src="js/fireball.js"></script>
+    <script type="text/javascript" src="js/coin.js"></script>
+    <script type="text/javascript" src="js/bcoin.js"></script>
+    <script type="text/javascript" src="js/goomba.js"></script>
+    <script type="text/javascript" src="js/koopa.js"></script>
+    <script type="text/javascript" src="js/floor.js"></script>
+    <script type="text/javascript" src="js/block.js"></script>
+    <script type="text/javascript" src="js/rubble.js"></script>
+    <script type="text/javascript" src="js/prop.js"></script>
+    <script type="text/javascript" src="js/player.js"></script>
+    <script type="text/javascript" src="js/flag.js"></script>
+    <script type="text/javascript" src="js/levels/level.js"></script>
+    <script type="text/javascript" src="js/levels/11.js"></script>
+    <script type="text/javascript" src="js/levels/11tunnel.js"></script>
+    <script type="text/javascript" src="js/game.js"></script>
+
+    <py-script>
+
+
+    </py-script>
+
+    <div class="mb10">
+      <p>Use < > to move, ↓ to crouch and x to jump. If video is enabled, say hi to jump as well!  <a href=https://github.com/JustTemmie/Shitpost-Website/blob/master/test/mario/play_mario.html#L56>code:</a></p>
+      <div id="update-note" py-mount class="updatenote mt10">loading model ..</div>
+    </div>
+    <div>
+      <video autoplay="autoplay" id="myvideo" py-mount="video"></video>
+      <canvas id="canvas" py-mount class="border canvasbox"></canvas>
+    </div>
+    <script src="../handtrack/lib/handtrack.min.js"> </script>
+</html>
