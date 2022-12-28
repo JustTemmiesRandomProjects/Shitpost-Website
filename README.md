@@ -1,2 +1,2 @@
 # Shitpost-Website
-https://temmietem.site
+https://temmietem.netlify.com
